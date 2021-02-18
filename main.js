@@ -3,5 +3,5 @@ const interval = setInterval(() =>
     .style("background-color", () => `hsl(${Math.random() * 360},100%,50%)`)
     .style("height", () => `${Math.random() * 360}px`)
     .style("width", () => `${Math.random() * 360}px`)
-  , '1500');
+  , '500');
 
